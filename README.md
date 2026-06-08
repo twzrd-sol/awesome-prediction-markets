@@ -119,6 +119,7 @@ Connect LLMs to prediction market data via the Model Context Protocol.
 - [fred-mcp-server](https://github.com/kablewy/fred-mcp-server) — FRED economic data for Claude/Cursor.
 - [mcp-fredapi](https://github.com/Jaldekoa/mcp-fredapi) — FRED API with series search and category browsing.
 - [imf-data-mcp](https://github.com/c-cf/imf-data-mcp) — IMF economic data via SDMX 3.0 API.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Trust scoring for AI agents on Solana. `score_agent(wallet)` and `preflight_check(wallet)` are free; `get_trust_receipt(wallet)` delivers a verifiable on-chain receipt via x402 micropayment. Useful for verifying prediction market AI agent identity before distributing signals or capital. `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 ## CLI Tools
 
